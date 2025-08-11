@@ -24,6 +24,9 @@
 1. **Fork 此仓库**到您的 GitHub 账户
 
 2. **配置 Secrets**：进入仓库 Settings → Secrets and variables → Actions
+   
+   ![GitHub Secrets配置](images/github-secret.png)
+   
    ```
    LOGIN_EMAIL=your_email@163.com
    LOGIN_PASSWORD=your_password
@@ -38,6 +41,10 @@
    FROM_EMAIL=your_email@163.com
    TO_EMAIL=your_email@163.com
    ```
+   
+   **163邮箱授权码获取方法：**
+   
+   ![163邮箱授权码设置](images/163auth.png)
 
 3. **启用工作流**：Actions 页面会自动执行，每天北京时间 9:00 自动签到
 
@@ -60,6 +67,10 @@
    # 编辑配置文件，填入您的登录信息
    nano pve_checkin_config.json
    ```
+   
+   **配置文件示例：**
+   
+   ![本地配置文件示例](images/pve_checkin_config_example.png)
 
 4. **测试运行**
    ```bash
