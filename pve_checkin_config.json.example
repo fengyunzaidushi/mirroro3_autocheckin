@@ -1,0 +1,30 @@
+{
+  "login": {
+    "email": "your_email@163.com",
+    "password": "your_password"
+  },
+  "auth_token": "your_jwt_token_here",
+  "user_info": {
+    "id": 0,
+    "username": "",
+    "email": ""
+  },
+  "max_retries": 3,
+  "retry_delay": 300,
+  "email_alerts": {
+    "enabled": true,
+    "smtp_server": "smtp.163.com",
+    "smtp_port": 465,
+    "smtp_user": "your_email@163.com",
+    "smtp_password": "your_163_authorization_code",
+    "from_email": "your_email@163.com",
+    "to_email": "your_email@163.com",
+    "on_failure": true,
+    "on_success": false,
+    "on_token_refresh": true
+  },
+  "logging": {
+    "level": "INFO",
+    "max_log_days": 30
+  }
+}
