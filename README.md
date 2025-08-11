@@ -69,7 +69,8 @@
    ```
    
    **配置文件示例：**
-   
+   auth-token本地运行时，首次运行会自动获取，后续运行时会自动更新。
+   获取到之后，可以添加到github actions的secrets中.
    ![本地配置文件示例](images/pve_checkin_config_example.png)
 
 4. **测试运行**
