@@ -6,6 +6,8 @@
 
 一个专为 [mirror.o3pro.pro](https://mirror.o3pro.pro) 网站设计的自动签到工具，支持本地部署和 GitHub Actions 云端运行。
 
+> 基于 [billrice](https://github.com/billrice) 的原始代码开发，增加了 GitHub Actions 支持和多项功能优化。
+
 ## ✨ 特性
 
 - 🚀 **多平台部署** - 支持 PVE/Linux 本地部署和 GitHub Actions 云端运行
@@ -228,6 +230,10 @@ Result: Success
 ## 🤝 贡献
 
 欢迎提交 Issue 和 Pull Request 来帮助改进这个项目！
+
+## 🙏 致谢
+
+本项目基于 [billrice](https://github.com/billrice) 的原始代码进行开发和优化，在此表示感谢！
 
 ## 📄 许可证
 
