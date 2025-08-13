@@ -2,15 +2,15 @@ name: Mirror O3 Pro Auto Checkin
 
 on:
   schedule:
-    # 每天北京时间上午9点执行 (UTC时间凌晨1点)
-    - cron: '0 1 * * *'
+    # 每天北京时间上午1点执行 (UTC时间17点)
+    - cron: '0 17 * * *'
   workflow_dispatch:
     # 允许手动触发
     inputs:
       test_mode:
         description: '是否以测试模式运行'
         required: false
-        default: 'false'
+        default: false
         type: boolean
 
 jobs:
